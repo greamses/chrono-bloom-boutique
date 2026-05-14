@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Maison Horo Watches" },
+      { name: "description", content: "Chronos Luxe is a modern Next.js web application for exquisite watch e-commerce sales." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Maison Horo Watches" },
+      { property: "og:description", content: "Chronos Luxe is a modern Next.js web application for exquisite watch e-commerce sales." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Maison Horo Watches" },
+      { name: "twitter:description", content: "Chronos Luxe is a modern Next.js web application for exquisite watch e-commerce sales." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cf38b014-fe46-4b70-bc66-4e9f3ebc5503/id-preview-1c0d1977--441be318-fb36-4609-940a-89c453049657.lovable.app-1778728090752.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cf38b014-fe46-4b70-bc66-4e9f3ebc5503/id-preview-1c0d1977--441be318-fb36-4609-940a-89c453049657.lovable.app-1778728090752.png" },
     ],
     links: [
       {
